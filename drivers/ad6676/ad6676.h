@@ -209,7 +209,7 @@
  */
 
 #define R_DIV(x)			((x) << 6);
-#define CLKSYN_R_DIV_RESERVED		0x3D
+#define CLKSYN_R_DIV_RESERVED		0x31
 
 /*
  * AD6676_CLKSYN_ENABLE
