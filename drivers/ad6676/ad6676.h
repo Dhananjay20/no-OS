@@ -209,6 +209,8 @@
  */
 
 #define R_DIV(x)			((x) << 6);
+#define CLKSYN_R_DIV_SYSREF_CTRL	(1 << 3)
+#define CLKSYN_R_DIV_CLKIN_IMPED	(1 << 2)
 #define CLKSYN_R_DIV_RESERVED		0x31
 
 /*
